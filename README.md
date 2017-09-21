@@ -1,4 +1,4 @@
-Mplus syntax editor for sublime text 2
+Mplus syntax editor for sublime text 3
 ==============
 
 http://bkeller2.github.io/Mplus/
@@ -58,25 +58,6 @@ Linux:
 
 ```
 sudo ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/subl
-```
-
-# Themes #
-
-This package currently offers three themes. By default it uses the "Mplus lite" theme which mimics close to normal Mplus highlighting. 
-To switch to the more highlighting option add this code into the syntax specific settings:
-
-```
-{
-  // Sets the colors used within the text area
-	"color_scheme": "Packages/Mplus/Mplus.tmTheme"
-}
-```
-To switch to the dark theme (black background) add this code intot he syntax specific settings:
-```
-{
-  // Sets the colors used within the text area
-	"color_scheme": "Packages/Mplus/Mplus Dark.tmTheme"
-}
 ```
 
 # Still in development, stay tuned! #
