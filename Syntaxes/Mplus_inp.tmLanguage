@@ -48,7 +48,7 @@
 			<key>match</key>
 			<string>\;</string>
 			<key>name</key>
-			<string>invalid.illegal.mplus</string>
+			<string>punctuation.terminator.mplus</string>
 		</dict>
 		<dict>
 			<key>match</key>
