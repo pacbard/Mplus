@@ -17,16 +17,17 @@ patterns:
   match: MODEL FIT INFORMATION|INPUT INSTRUCTIONS|MODEL RESULTS|SUMMARY OF ANALYSIS|STANDARDIZED
     MODEL RESULTS|R\-SQUARE|TECHNICAL 1 OUTPUT|TECHNICAL 2 OUTPUT|TECHNICAL 3 OUTPUT|TECHNICAL
     4 OUTPUT|TECHNICAL 5 OUTPUT|TECHNICAL 6 OUTPUT|TECHNICAL 7 OUTPUT|TECHNICAL 8
-    OUTPUT|TECHNICAL 9 OUTPUT|
+    OUTPUT|TECHNICAL 9 OUTPUT|QUALITY OF NUMERICAL RESULTS|MODEL MODIFICATION INDICES
 
 - name: variable.language.mplus_out
-  match: \b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Thresholds|Means|Loglikelihood|Information
+  match: \b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Thresholds|Means|Loglikelihood)\b|Information
     Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|Chi\-Square
-    Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square
-    Residual\)|Number of Free Parameters)\b
+    Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square Residual\)|
+    WRMR \(Weighted Root Mean Square Residual\)|Number of Free Parameters|
 
 - name: invalid.illegal.mplus_out
   match: \b(WARNING|ERROR)\b
+
 bundleUUID: 5BE76441-6BDC-4028-B48A-A96365E5B226
 foldingStartMarker: /\*\*|\{\s*$
 foldingStopMarker: \*\*/|^\s*\}
