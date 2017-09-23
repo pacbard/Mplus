@@ -21,9 +21,10 @@ patterns:
 
 - name: variable.language.mplus_out
   match: \b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Thresholds|Means|Loglikelihood)\b|Information
-    Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|Chi\-Square
-    Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square Residual\)|
-    WRMR \(Weighted Root Mean Square Residual\)|Number of Free Parameters|
+    Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|CFI\/TLI|Chi\-Square
+    Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square Residual\)|WRMR 
+    \(Weighted Root Mean Square Residual\)|Number of Free Parameters|ON/BY Statements|ON Statements|WITH Statements
+
 
 - name: invalid.illegal.mplus_out
   match: \b(WARNING|ERROR)\b

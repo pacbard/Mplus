@@ -36,7 +36,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Thresholds|Means|Loglikelihood)\b|Information Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|Chi\-Square Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square Residual\)| WRMR \(Weighted Root Mean Square Residual\)|Number of Free Parameters|</string>
+			<string>\b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Thresholds|Means|Loglikelihood)\b|Information Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|CFI\/TLI|Chi\-Square Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square Residual\)|WRMR \(Weighted Root Mean Square Residual\)|Number of Free Parameters|ON/BY Statements|ON Statements|WITH Statements</string>
 			<key>name</key>
 			<string>variable.language.mplus_out</string>
 		</dict>
