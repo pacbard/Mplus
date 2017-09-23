@@ -1,0 +1,7 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: Comments
+scope: source.mplus
+settings:
+  shellVariables:
+  - name: TM_COMMENT_START
+    value: '! '

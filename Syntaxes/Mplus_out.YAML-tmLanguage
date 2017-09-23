@@ -1,0 +1,32 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: Mplus.out
+scopeName: source.mplus_out
+fileTypes: [out]
+uuid: 6388FFC9-926A-4F40-9A50-D2EA6F3B9A37
+
+patterns:
+- name: constant.numeric.mplus_out
+  match: \b\d+(\.\d+)*\b
+
+- name: entity.name.tag.mplus_out
+  match: \bEstimate\b|S\.E\.|Est\.\/S\.E\.|Two\-Tailed|P\-Value|H0 Value|H1 Value|Akaike
+    \(AIC\)|Bayesian \(BIC\)|Sample\-Size Adjusted BIC|Value|Degrees of Freedom| Probability
+    RMSEA <= .05|CFI|TLI
+
+- name: entity.name.function.mplus_out
+  match: MODEL FIT INFORMATION|INPUT INSTRUCTIONS|MODEL RESULTS|SUMMARY OF ANALYSIS|STANDARDIZED
+    MODEL RESULTS|R\-SQUARE|TECHNICAL 1 OUTPUT|TECHNICAL 2 OUTPUT|TECHNICAL 3 OUTPUT|TECHNICAL
+    4 OUTPUT|TECHNICAL 5 OUTPUT|TECHNICAL 6 OUTPUT|TECHNICAL 7 OUTPUT|TECHNICAL 8
+    OUTPUT|TECHNICAL 9 OUTPUT|
+
+- name: variable.language.mplus_out
+  match: \b(Residual Variances|NU|LAMBDA|THETA|ALPHA|BETA|PSI|Variances|Intercepts|Thresholds|Means|Loglikelihood|Information
+    Criteria|Chi\-Square Test of Model Fit|RMSEA \(Root Mean Square Error Of Approximation\)|Chi\-Square
+    Test of Model Fit|for the Baseline Model|SRMR \(Standardized Root Mean Square
+    Residual\)|Number of Free Parameters)\b
+
+- name: invalid.illegal.mplus_out
+  match: \b(WARNING|ERROR)\b
+bundleUUID: 5BE76441-6BDC-4028-B48A-A96365E5B226
+foldingStartMarker: /\*\*|\{\s*$
+foldingStopMarker: \*\*/|^\s*\}
